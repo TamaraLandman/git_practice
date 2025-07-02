@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home-title{
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    color: white;
+    border: 2em;
+
+}
+
+
+#title {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+
+}
+
+#name {
+    color: blue;
+    text-align: center;
+    margin-top: 3.5%;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#bio{
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+#favorite-foods-list{
+    margin-left: 5%;
+    margin-top: 5%;
+    list-style: none;
+}
+
+#food-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.food{
+    margin-left: 5%;
+
+}
+
+img{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#explore-btn{
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    height: 75px;
+    width: 200px;
+    border: 15px;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+    transition-duration: 0.4s;
+    border:5px solid, grey;
+    
+}
+
+#explore-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+#explore-btn a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+#explore-btn:hover {
+    
+    font-size: 40px;
+    background-color: grey;
+    color: white;
+
+}
+
+
+#flex-button{
+    display: flex;
+    justify-content: center;
+}
+
+#pg2{
+    background: white;
+    text-align: center;
+    margin: 5%;
+}
+
