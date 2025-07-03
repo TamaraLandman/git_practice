@@ -68,9 +68,12 @@
 }
 
 img{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     border-radius: 15px;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 
@@ -141,16 +144,17 @@ body {
 }
 
 #description{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 #lead-in{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     font-size: 20px;
     margin-bottom: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #hobbies-flex{
@@ -161,4 +165,63 @@ body {
 
 ul{
     list-style-type: none;
+    
+}
+
+
+
+#square1{
+    margin-top: 20px;
+    background-color: rgb(153, 209, 235);
+    padding-top: 30px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#square2{
+    margin-top: 20px;
+    background-color: rgb(113, 178, 207);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#square3{
+    margin-top: 20px;
+    background-color: rgb(103, 162, 189);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+#coding-journey{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#square4{
+    margin-top: 20px;
+    background-color: rgb(103, 162, 189);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
