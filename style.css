@@ -140,3 +140,25 @@ body {
     margin: 5%;
 }
 
+#description{
+    margin-top: 5%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#lead-in{
+    margin-top: 5%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#hobbies-flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul{
+    list-style-type: none;
+}
